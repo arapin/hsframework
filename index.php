@@ -3,7 +3,6 @@
 	include $_SERVER["DOCUMENT_ROOT"]."/class/COMMON/class.Images.php";
 
 	if(MOBILE == "N"){
-		if($com != ""){
 			include $_SERVER["DOCUMENT_ROOT"]."/class/CONTROL/".$com.".php";
 
 			if($mng == "Y"){
