@@ -1,0 +1,167 @@
+﻿body {
+    background: #f6f6f6;
+}
+
+h4 {
+    margin: 0px;
+    color: #333;
+    font-size: 15pt;
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+    h4 img {
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+
+.st_sch_wrap {
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/sub_top_bg00.jpg', sizingMethod='scale');
+    background: url(/images/sub_top_bg00.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.st_sch_wrap_shop_join {
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/sub_top_bgjoin.jpg', sizingMethod='scale');
+    background: url(/images/sub_top_bgjoin.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.search_help_txt {
+    position: absolute;
+    color: #999;
+    width: 560px;
+    height: 60px;
+    line-height: 62px;
+}
+
+.st_sch_input {
+    background: #fff;
+    height: 60px;
+    line-height: 60px;
+    width: 560px;
+    text-align: left;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+    .st_sch_input * {
+        vertical-align: middle;
+    }
+
+    .st_sch_input input[type=text] {
+        border: none;
+        width: 530px;
+        color: #555;
+        font-size: 12pt;
+        height: 30px;
+    }
+
+.login_form {
+    width:100%;
+}
+
+.login_form legend
+{
+    margin-bottom:15px;
+}
+
+.join_info
+{
+    font-size:13px;
+    color:#888;
+    text-align:center;
+    padding:0px;
+    line-height:150%;
+}
+
+.join_info span
+{
+    color:#46c;
+}
+
+.join_width
+{
+    width:500px;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    margin:auto;
+    padding:15px 0px;
+}
+
+.join_label
+{
+    width:100px;
+    font-size:13px;
+    color:#888;
+    vertical-align:top;
+    display:inline-block;
+    margin-top:13px;
+}
+
+.join_width img
+{
+    vertical-align:middle;
+    margin-right:8px;
+
+}
+
+.join_width span
+{
+    margin-left:5px;
+}
+
+.join_req
+{
+    text-align:right;
+    padding-right:19px;
+    color:#888;
+    margin-bottom:8px;
+}
+
+.req_mark
+{
+    color:#f30;
+    font-size:12px;
+}
+
+.join_width input[type=text], .join_width input[type=password], .join_width select, .edit_txt
+{
+    font-size:13px;
+    height:30px;
+    width:150px;
+    display:inline-block;
+    margin:5px 0px;
+    vertical-align:middle;
+    margin-right:3px;
+}
+
+.edit_txt
+{
+    line-height:30px;
+    color:#46d;
+    font-size:13px;
+}
+
+.join_width select
+{
+    color:#888;
+    border:1px solid #ccc;
+    width:80px;
+    font-size:12px;
+    margin-right:5px;
+}
+
+.join_rules a:link, .join_rules a:visited
+{
+    color:#46c;
+    text-decoration:none;
+}
+
+.shop_join_rules a:link, .shop_join_rules a:visited
+{
+    color:#0a8;
+    text-decoration:none;
+}
