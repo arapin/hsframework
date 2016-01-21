@@ -1,7 +1,7 @@
 <?
 	include $_SERVER["DOCUMENT_ROOT"]."/class/COMMON/config.php";
 	include $_SERVER["DOCUMENT_ROOT"]."/class/COMMON/class.Images.php";
-
+	/*하하하하*/
 	if(MOBILE == "N"){
 		if($com != ""){
 			include $_SERVER["DOCUMENT_ROOT"]."/class/CONTROL/".$com.".php";
